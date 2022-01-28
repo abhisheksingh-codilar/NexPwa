@@ -1,0 +1,35 @@
+
+
+  
+.carousel .thumb.selected, .carousel .thumb:hover {
+    border: 1px solid rgb(199, 191, 191,0.3);
+  }
+
+.carousel .control-prev.control-arrow:before {
+    border-right: 8px solid black;
+}
+
+.carousel .control-next.control-arrow:before {
+    border-left: 8px solid black;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+    background: rgba(0,0,0,0);
+}
+
+.thumbs{
+    text-align: center;
+}
+.carousel .slide img {
+    width: 450px;
+    vertical-align: top;
+    border: 0;
+    height: 450px;
+}
+
+.main-slider{
+    width: 100%
+}
+.carousel .carousel-status {
+    display: none;
+}   

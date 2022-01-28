@@ -1,0 +1,11 @@
+.top-bar{
+  width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 6px;
+ font-size: 10.5px;
+ font-weight: 450;
+ background-color: #f3f3f3;;
+ word-spacing: 1px;
+}

@@ -1,0 +1,109 @@
+.navbar{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    /* justify-content:center; */
+    align-items: center;
+    padding: 20px;
+}
+
+.searchbar{
+    position: relative;
+    width: 40%;
+}
+.searchbar input{
+    background-color: #f3f3f3;
+    padding: 10px 40px ;
+    outline: none;
+    border: 1px solid #f3f3f3;
+    width:80%
+}
+
+.searchbar img{
+    position: absolute;
+    top:11px;
+    left:10px;
+    width: 15px;
+    height: 15px;
+}
+
+.logo{
+    width: 35%;
+}
+
+.logo img{
+    width:50%;
+}
+
+.languages{
+    width: 10%;
+    /* padding: 0 5px; */
+    margin-right: 15px;
+}
+
+.language-select{
+    width: 100%;
+    height: 40px;
+    box-sizing: content-box;
+    border: 1px solid rgb(199, 191, 191);
+    background-color: #fff;
+    outline: none;
+}
+
+.currency{
+    width: 6.5%;
+}
+
+.currency-select{
+    width: 90%;
+    height: 40px;
+    box-sizing: content-box;
+    border: 1px solid rgb(199, 191, 191);
+    background-color: #fff;
+    outline: none;
+}
+
+.my-account{
+    width: 5%;
+}
+
+.my-account >svg{
+    width: 100%;
+}
+
+.cart{
+    width: 3.5%;
+}
+.cart > svg{
+    width: 100%;
+}
+
+.menu-list-inner{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu-list ul{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list li{
+    list-style: none;
+    padding: 0 22px;
+    color: #222;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.horizontal-line{
+    margin: 10px 0;
+}
+
+.horizontal-line hr{
+    opacity: 0.2;
+}
+
+
+
