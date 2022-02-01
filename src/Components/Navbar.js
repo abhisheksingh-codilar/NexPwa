@@ -10,18 +10,6 @@ export default class Navbar extends Component {
         }
       }
 
-    //   currencyChange = () => {
-    //      if( document.querySelector('.currency-select').value === "INR"){
-    //         this.setState({currencyINR:true})
-            
-    //      }
-    //      else{
-    //         this.setState({currencyINR:false})
-    //      }
-
-        
-       
-    //   }
 
   render() {
     return <>

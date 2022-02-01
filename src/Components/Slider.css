@@ -1,35 +1,41 @@
 
-
+@import "~react-image-gallery/styles/css/image-gallery.css";
   
-.carousel .thumb.selected, .carousel .thumb:hover {
-    border: 1px solid rgb(199, 191, 191,0.3);
+.image-gallery-play-button .image-gallery-svg {
+    display: none;
+  }
+  .image-gallery-fullscreen-button {
+    display: none;
+  }
+  .image-gallery-right-nav .image-gallery-svg {
+    height: 60px;
+    width: 20px;
+  }
+  .image-gallery-right-nav .image-gallery-svg svg:hover{
+    fill: black;
+  }
+  .image-gallery-left-nav .image-gallery-svg {
+    height: 60px;
+    width: 20px;
+  }
+  .image-gallery-thumbnail{
+    border: 0.9px solid #adabab;
+    margin: 1rem 0;
+    padding: 1rem 0;
+  }
+  .image-gallery-thumbnail:hover{
+    border: 0.9px solid #adabab;
+    outline: none;
+  }
+  .image-gallery-thumbnail.active, .image-gallery-thumbnail:focus {
+    outline: none;
+    border: 0.9px solid #adabab;
+  }
+  
+  .image-gallery-thumbnail .image-gallery-thumbnail-inner {
+   padding: 0.5rem;
   }
 
-.carousel .control-prev.control-arrow:before {
-    border-right: 8px solid black;
+  .image-gallery-bullets{
+    transform: translateY(2.5rem);
 }
-
-.carousel .control-next.control-arrow:before {
-    border-left: 8px solid black;
-}
-
-.carousel.carousel-slider .control-arrow:hover {
-    background: rgba(0,0,0,0);
-}
-
-.thumbs{
-    text-align: center;
-}
-.carousel .slide img {
-    width: 450px;
-    vertical-align: top;
-    border: 0;
-    height: 450px;
-}
-
-.main-slider{
-    width: 100%
-}
-.carousel .carousel-status {
-    display: none;
-}   

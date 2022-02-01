@@ -19,7 +19,8 @@ export default class App extends Component {
       description:null,
       relatedProducts:[],
       footer:null,
-      currencyInr:true
+      currencyInr:true,
+      // Id:[]
     }
   }
 
@@ -105,6 +106,7 @@ export default class App extends Component {
     }
     
     related_products{
+      id
       media_gallery_entries{
         thumbnail{
           url
@@ -148,7 +150,8 @@ export default class App extends Component {
         currency:res.data.currency,
         description:res.data.products.items[0].description.html,
         relatedProducts:res.data.products.items[0].related_products,
-        footer:res.data.cmsBlocks.items[0].content
+        footer:res.data.cmsBlocks.items[0].content,
+        Id:res.data.products.items[0].related_products.id
       })
     })
   
